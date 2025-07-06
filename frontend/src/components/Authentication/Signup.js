@@ -192,7 +192,7 @@ const Signup = ({ setTabIndex }) => {
         <Input
           type="file"
           p={1.5}
-          value={pic}
+          // value={pic}
           accept="image/*"
           onChange={(e) => {
             handlePicUpload(e.target.files[0]);
